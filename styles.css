@@ -1,0 +1,109 @@
+/* Resetting basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f7f7; /* Light background for a clean look */
+    color: #333; /* Dark text for readability */
+    line-height: 1.6;
+}
+
+/* Header styling */
+header {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Georgia', serif; /* Elegant serif font */
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Main section styling */
+#menu, #food-menu, #paket-hemat {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.menu-category {
+    margin-bottom: 2rem;
+}
+
+.menu-category h3 {
+    font-size: 1.4rem;
+    color: #333;
+    border-bottom: 2px solid #ff5e57; /* Accent color */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu-category ul {
+    list-style-type: none;
+}
+
+.menu-category ul li {
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.menu-category ul li:hover {
+    background-color: #f9f9f9; /* Hover effect */
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .menu-category h3 {
+        font-size: 1.2rem;
+    }
+
+    .menu-category ul li {
+        font-size: 1rem;
+    }
+}
